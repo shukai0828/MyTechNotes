@@ -47,3 +47,16 @@
     1. 字符编码UTF-8
     1. TAB制表符用四个空格代替
     1. 行尾结束符为\n
+
+---
+### 开发环境跟持续集成环境的快速对照方式
+
+1.方式1：使用IDE的代码检查命令，只能查看代码规范
+    1. 在PHPStorm的Inspections中选中PHP Code Sniffer validation，菜单：File->Settings->Inspections->PHP
+    1. 执行菜单：Code->Inspect Code，可以看到代码检查的结果
+1.方式2：使用Phing自动构建
+    1. 在项目目录下创建build目录
+    1. 在build目录下创建build.xml，根据需要设定各种构建目标
+    1. 将build.xml绑定为Phing文件
+    1. 在Phing工具窗口中执行各种构建目标并查看结果
+
