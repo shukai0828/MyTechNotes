@@ -18,6 +18,7 @@
     3. 修改安装目录下的config.cmd文件，将php_version的值改成PHP目录名的版本号，比如5.4.9
     4. 复制安装目录下的php.ini-development文件为php.ini
     5. 修改php.ini文件中的include_path，使其包含pear安装目录，本例中为C:\wnmp\php5.4.9\pear
+    6. 修改php.ini文件中的date.timezone的值为UTC
     6. 将php安装目录设为系统环境变量PATH的一部分，本例中为C:\wnmp\php5.4.9
 1. 运行"服务器管理.cmd"控制各种服务
 
