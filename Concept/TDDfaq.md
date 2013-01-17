@@ -345,11 +345,11 @@ BDD可能是下一代的TDD，或者叫“TDD done well”
 
 >A test is not a unit test if:
 
->     It talks to the database
->     It communicates across the network
->     It touches the file system
->     It can't run correctly at the same time as any of your other unit tests
->     You have to do special things to your environment (such as editing config files) to run it.
+> 1. It talks to the database
+> 1. It communicates across the network
+> 1. It touches the file system
+> 1. It can't run correctly at the same time as any of your other unit tests
+> 1. You have to do special things to your environment (such as editing config files) to run it.
 
 能够做如下事情的测试不算坏事，这类测试通常具备一定价值，可以被统一写在同一个单元测试集合里。然而，非常有必要将这些测试跟真正的单元测试隔离开，以便在我们做出改变后能够使用真正的单元测试集合进行快速测试验证。
 
@@ -362,12 +362,12 @@ BDD可能是下一代的TDD，或者叫“TDD done well”
 
 >Tests that do such things aren't bad. Often they are worth writing, and they can be written in a unit test harness. However, it is important to be able to separate them from true unit tests so that we can keep a set of tests that we can run fast whenever we make our changes).
 
->     Test everything that could possibly break
->     Never write a line of code without a failing test
->     Design for today, code for tomorrow
->     Once And Only Once or DRY - Don't Repeat Yourself
->     Remove any form of duplication
->     YAGNI: You Ain't Gonna Need It. - Do not try to foresee in which direction the code should be designed as you're likely to be wrong, or to add uneeded complexity.
+> 1. Test everything that could possibly break
+> 2. Never write a line of code without a failing test
+> 1. Design for today, code for tomorrow
+> 1. Once And Only Once or DRY - Don't Repeat Yourself
+> 1. Remove any form of duplication
+> 1. YAGNI: You Ain't Gonna Need It. - Do not try to foresee in which direction the code should be designed as you're likely to be wrong, or to add uneeded complexity.
 
 ---
 ## On the negative side
@@ -386,20 +386,21 @@ But the automatic test suite it creates is a real safety net when it comes to re
 
 Links
 
-    [TDD mailing list](http://groups.yahoo.com/group/testdrivendevelopment/)
-    http://www.testdriven.com
-    http://www.refactoring.com
-    [The way of Testivus](http://pantras.free.fr/articles/testivus.html) ([long version](http://www.agitar.com/downloads/TheWayOfTestivus.pdf)).
-    [jUnit FAQ](http://junit.sourceforge.net/doc/faq/faq.htm)
+* [TDD mailing list](http://groups.yahoo.com/group/testdrivendevelopment/)
+* http://www.testdriven.com
+* http://www.refactoring.com
+* [The way of Testivus](http://pantras.free.fr/articles/testivus.html) ([long version](http://www.agitar.com/downloads/TheWayOfTestivus.pdf)).
+* [jUnit FAQ](http://junit.sourceforge.net/doc/faq/faq.htm)
 
 Books
 
-    TDD By Example, Kent Beck, 2002
-    Refactoring, Martin Fowler Beck, 1999
-    TDD: a practical Guide, Dave Astels, 2003
-    Working Effectively with Legacy Code, Michael Feathers, 2004
-    Refactoring to Patterns, Joshua Kerievsky, 2004
-    xUnit Test Patterns, Gerard Meszaros, 2007
+* TDD By Example, Kent Beck, 2002
+* Refactoring, Martin Fowler Beck, 1999
+* TDD: a practical Guide, Dave Astels, 2003
+* Working Effectively with Legacy Code, Michael Feathers, 2004
+* Refactoring to Patterns, Joshua Kerievsky, 2004
+* xUnit Test Patterns, Gerard Meszaros, 2007
+
 ---
 ## 参考资料
 
