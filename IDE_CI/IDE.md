@@ -17,7 +17,6 @@
     2. 解压缩到PHPSys安装目录，目录名为"php+版本号"，例如*php5.4.9*
     3. 修改安装目录下的config.cmd文件，将php_version的值改成PHP目录名的版本号，比如5.4.9
     4. 复制安装目录下的php.ini-development文件为php.ini
-    5. 修改php.ini文件中的include_path，使其包含pear安装目录，本例中为C:\wnmp\php5.4.9\pear
     6. 修改php.ini文件中的date.timezone的值为UTC
     6. 将php安装目录设为系统环境变量PATH的一部分，本例中为C:\wnmp\php5.4.9
 1. 运行"服务器管理.cmd"控制各种服务
@@ -28,14 +27,33 @@
 推荐统一使用Pear工具进行安装，比较简便易行。
 
 1. 安装[Pear](http://pear.php.net/)
+    1. 下载[go-pear.phar](http://pear.php.net/go-pear.phar)到PHP目录
+    2. 确保存在php.ini文件，后续执行会对其进行修改
+    2. 执行：php go-pear.phar
 1. 安装[Phing](http://www.phing.info/)
+    1. pear channel-discover pear.phing.info
+    1. pear install --alldeps phing/phing
 1. 安装[PHPUnit](http://phpunit.de/)
+    1. pear config-set auto_discover 1
+    1. pear install pear.phpunit.de/PHPUnit
 1. 安装[PHP_CodeSniffer](http://pear.php.net/PHP_CodeSniffer)
+    1. pear install PHP_CodeSniffer
 1. 安装[PHP Copy/Paste Detector](http://github.com/sebastianbergmann/phpcpd)
+    1. pear config-set auto_discover 1
+    1. pear install pear.phpunit.de/phpcpd
 1. 安装[PHP_Depend](http://pdepend.org/)
+    1. pear channel-discover pear.pdepend.org
+    1. pear install pdepend/PHP_Depend-beta
 1. 安装[PHP Mess Detector](http://phpmd.org/)
+    1. pear channel-discover pear.phpmd.org
+    1. pear channel-discover pear.pdepend.org
+    1. pear install --alldeps phpmd/PHP_PMD
 1. 安装[phploc](http://github.com/sebastianbergmann/phploc)
+    1. pear config-set auto_discover 1
+    1. pear install pear.phpunit.de/phploc
 1. 安装[PHP_CodeBrowser](https://github.com/Mayflower/PHP_CodeBrowser)
+    1. pear channel-discover pear.phpqatools.org
+    1. pear install --alldeps phpqatools/PHP_CodeBrowser
 
 ---
 ### 安装和配置PHPStorm
