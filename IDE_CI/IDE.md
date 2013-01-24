@@ -54,6 +54,7 @@
 1. 安装[PHP_CodeBrowser](https://github.com/Mayflower/PHP_CodeBrowser)
     1. pear channel-discover pear.phpqatools.org
     1. pear install --alldeps phpqatools/PHP_CodeBrowser
+    1. 开启php的mbstring扩展
 
 ---
 ### 安装和配置PHPStorm
