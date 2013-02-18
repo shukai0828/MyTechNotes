@@ -63,10 +63,11 @@
 1. 配置Phing执行路径，菜单：File->Settings->Phing，本例中为：C:\wnmp\php5.4.9\phing.bat
 1. 配置Code Sniffer执行路径，菜单：File->Settings->PHP->Code Sniffer，本例中为：C:\wnmp\php5.4.9\phpcs.bat
 1. 配置Code Sniffer检查的代码风格类型，菜单：File->Settings->Inspections->PHP->PHP Code Sniffer validation->Coding standard = PEAR
+1. 配置Code Style风格为PEAR，菜单：File->Settings->Code Style->PHP->Set From...->Predefined Style = PEAR
+1. 配置Code Style换行符风格为UNIX，菜单：File->Settings->Code Style->General->Line separator = Unix and OS X '\n'
 1. 其他要求（PHPStorm默认配置已经支持，但要保证不能改动）
     1. 字符编码UTF-8
     1. TAB制表符用四个空格代替
-    1. 行尾结束符为\n
 
 ---
 ### 开发环境跟持续集成环境的快速对照方式
