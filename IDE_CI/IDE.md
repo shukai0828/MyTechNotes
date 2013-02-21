@@ -54,7 +54,6 @@
 1. 安装[PHP_CodeBrowser](https://github.com/Mayflower/PHP_CodeBrowser)
     1. pear channel-discover pear.phpqatools.org
     1. pear install --alldeps phpqatools/PHP_CodeBrowser
-    1. 开启php的mbstring扩展
 
 ---
 ### 安装和配置PHPStorm
@@ -65,7 +64,7 @@
 1. 配置Code Sniffer检查的代码风格类型，菜单：File->Settings->Inspections->PHP->PHP Code Sniffer validation->Coding standard = PEAR
 1. 配置Code Style风格为PEAR，菜单：File->Settings->Code Style->PHP->Set From...->Predefined Style = PEAR
 1. 配置Code Style换行符风格为UNIX，菜单：File->Settings->Code Style->General->Line separator = Unix and OS X '\n'
-1. 其他要求（PHPStorm默认配置已经支持，但要保证不能改动）
+1. 其他要求
     1. 字符编码UTF-8
     1. TAB制表符用四个空格代替
 
