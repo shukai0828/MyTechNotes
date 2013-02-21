@@ -102,7 +102,6 @@ end if
 
 <pre>
 <code>
-
 dim action as new Action
 for each stratage in stratage_list
     if stratage.Priority < action.Stratage.Priority then
