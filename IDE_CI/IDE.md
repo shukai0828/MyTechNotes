@@ -62,6 +62,11 @@
 1. 配置Phing执行路径，菜单：File->Settings->Phing，本例中为：C:\wnmp\php5.4.9\phing.bat
 1. 配置Code Sniffer执行路径，菜单：File->Settings->PHP->Code Sniffer，本例中为：C:\wnmp\php5.4.9\phpcs.bat
 1. 配置Code Sniffer检查的代码风格类型，菜单：File->Settings->Inspections->PHP->PHP Code Sniffer validation->Coding standard = PEAR
+1. 配置Mess Detector(PHPStorm6)的检查项，菜单：File->Settings->Inspections->PHP->PHP Mess Detector validation->Options
+    1. Code Size Rules
+    1. Design Rules
+    1. Naming Rules
+    1. Unused Code Rules
 1. 配置Code Style风格为PEAR，菜单：File->Settings->Code Style->PHP->Set From...->Predefined Style = PEAR
 1. 配置Code Style换行符风格为UNIX，菜单：File->Settings->Code Style->General->Line separator = Unix and OS X '\n'
 1. 其他要求
