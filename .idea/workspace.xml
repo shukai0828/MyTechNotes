@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0de0c65f-84ef-440e-b7f2-68b50c41e200" name="Default" comment="增加说明文档，便于了解整体信息">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE_CI/CI.md" afterPath="$PROJECT_DIR$/IDE_CI/CI.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
+    </list>
+    <ignored path="GithubNotes.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="0de0c65f-84ef-440e-b7f2-68b50c41e200" time="1363444334323" ignored="false" />
+    <file path="/IDE.md" changelist="0de0c65f-84ef-440e-b7f2-68b50c41e200" time="1363140558303" ignored="false" />
+    <file path="/CI.md" changelist="0de0c65f-84ef-440e-b7f2-68b50c41e200" time="1363146848132" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="GithubNotes" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/CodeMetric/CyclomaticComplexity.txt" />
+        <option value="$PROJECT_DIR$/CodeMetric/CyclomaticComplexity.md" />
+        <option value="$PROJECT_DIR$/Concept/TDDfaq.md" />
+        <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/Concept/DryKissYagni.md" />
+        <option value="$PROJECT_DIR$/Concept/KISS.md" />
+        <option value="$PROJECT_DIR$/IDE_CI/IDE.md" />
+        <option value="$PROJECT_DIR$/IDE_CI/CI.md" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kiss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IDE_CI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cooperation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Concept" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GithubNotes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeMetric" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0de0c65f-84ef-440e-b7f2-68b50c41e200" name="Default" comment="" />
+      <created>1357135996759</created>
+      <updated>1357135996759</updated>
+    </task>
+    <task id="LOCAL-00001" summary="初始提交，含：&#10;&#10;1. 项目在PHPStorm IDE下的配置&#10;2. 圈复杂度文档">
+      <created>1357174157389</created>
+      <updated>1357174157389</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加说明文档，便于了解整体信息">
+      <created>1357195166104</created>
+      <updated>1357195166104</updated>
+    </task>
+    <task id="LOCAL-00003" summary="为配合集成测试，提供统一的开发环境安装说明">
+      <created>1358147661009</created>
+      <updated>1358147661009</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加了环境变量、包含路径配置说明，否则运行会失败">
+      <created>1358157012713</created>
+      <updated>1358157012713</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加了在开发环境中快速查看代码问题的说明，以摆脱对持续集成环境的依赖">
+      <created>1358157861628</created>
+      <updated>1358157861628</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改了两处不合MarkDown语法而导致格式错乱的问题">
+      <created>1358158046526</created>
+      <updated>1358158046526</updated>
+    </task>
+    <task id="LOCAL-00007" summary="增加了安装PHP后，设定环境变量的操作">
+      <created>1358303944207</created>
+      <updated>1358303944207</updated>
+    </task>
+    <task id="LOCAL-00008" summary="TDD常见问题和答疑">
+      <created>1358321375701</created>
+      <updated>1358321375701</updated>
+    </task>
+    <task id="LOCAL-00009" summary="调整了部分文本的格式">
+      <created>1358404551042</created>
+      <updated>1358404551042</updated>
+    </task>
+    <task id="LOCAL-00010" summary="增加了详细的安装步骤说明">
+      <created>1358747298632</created>
+      <updated>1358747298632</updated>
+    </task>
+    <task id="LOCAL-00011" summary="在安装php code browser时应该开启mb_string，便于UTF8文件二次处理后不产生乱码">
+      <created>1359005332285</created>
+      <updated>1359005332285</updated>
+    </task>
+    <task id="LOCAL-00012" summary="增加配置默认代码风格为PEAR和新建文件换行符为'\n'的设置说明">
+      <created>1361149978198</created>
+      <updated>1361149978198</updated>
+    </task>
+    <task id="LOCAL-00013" summary="增加了几个IDE配置的说明，使更符合CI和Pear风格要求">
+      <created>1361420011304</created>
+      <updated>1361420011304</updated>
+    </task>
+    <task id="LOCAL-00014" summary="个人有些感想提交．">
+      <created>1361420175948</created>
+      <updated>1361420175948</updated>
+    </task>
+    <task id="LOCAL-00015" summary="部分文章引用的图片">
+      <created>1361420337635</created>
+      <updated>1361420337635</updated>
+    </task>
+    <task id="LOCAL-00016" summary="拷问代码的目的，不能盲目">
+      <created>1361432383646</created>
+      <updated>1361432383646</updated>
+    </task>
+    <task id="LOCAL-00017" summary="代码的重心是要清晰">
+      <created>1361432412298</created>
+      <updated>1361432412298</updated>
+    </task>
+    <task id="LOCAL-00018" summary="简单设计的常规概念">
+      <created>1361434656608</created>
+      <updated>1361434656608</updated>
+    </task>
+    <task id="LOCAL-00019" summary="KISS的一些基本概念和方法">
+      <created>1361434699794</created>
+      <updated>1361434699794</updated>
+    </task>
+    <task id="LOCAL-00020" summary="格式调整">
+      <created>1361440461726</created>
+      <updated>1361440461726</updated>
+    </task>
+    <task id="LOCAL-00021" summary="KISS用到的图片">
+      <created>1361440497003</created>
+      <updated>1361440497003</updated>
+    </task>
+    <task id="LOCAL-00022" summary="增加对PHPMessDector配置的说明。">
+      <created>1363140638162</created>
+      <updated>1363140638162</updated>
+    </task>
+    <task id="LOCAL-00023" summary="初始提交，只具备了对PHP Mess Dector的两个特殊调整">
+      <created>1363146902079</created>
+      <updated>1363146902079</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37763372" sideWeight="0.6824104" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31758958" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始提交，只具备了对PHP Mess Dector的两个特殊调整" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="初始提交，含：&#10;&#10;1. 项目在PHPStorm IDE下的配置&#10;2. 圈复杂度文档" />
+    <MESSAGE value="增加说明文档，便于了解整体信息" />
+    <MESSAGE value="为配合集成测试，提供统一的开发环境安装说明" />
+    <MESSAGE value="增加了环境变量、包含路径配置说明，否则运行会失败" />
+    <MESSAGE value="增加了在开发环境中快速查看代码问题的说明，以摆脱对持续集成环境的依赖" />
+    <MESSAGE value="修改了两处不合MarkDown语法而导致格式错乱的问题" />
+    <MESSAGE value="增加了安装PHP后，设定环境变量的操作" />
+    <MESSAGE value="TDD常见问题和答疑" />
+    <MESSAGE value="调整了部分文本的格式" />
+    <MESSAGE value="增加了详细的安装步骤说明" />
+    <MESSAGE value="在安装php code browser时应该开启mb_string，便于UTF8文件二次处理后不产生乱码" />
+    <MESSAGE value="增加配置默认代码风格为PEAR和新建文件换行符为'\n'的设置说明" />
+    <MESSAGE value="增加了几个IDE配置的说明，使更符合CI和Pear风格要求" />
+    <MESSAGE value="个人有些感想提交．" />
+    <MESSAGE value="部分文章引用的图片" />
+    <MESSAGE value="拷问代码的目的，不能盲目" />
+    <MESSAGE value="代码的重心是要清晰" />
+    <MESSAGE value="简单设计的常规概念" />
+    <MESSAGE value="KISS的一些基本概念和方法" />
+    <MESSAGE value="格式调整" />
+    <MESSAGE value="KISS用到的图片" />
+    <MESSAGE value="增加对PHPMessDector配置的说明。" />
+    <MESSAGE value="初始提交，只具备了对PHP Mess Dector的两个特殊调整" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CodeMetric/CyclomaticComplexity.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="9" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeMetric/CyclomaticComplexity.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="9" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeMetric/CyclomaticComplexity.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="24" selection-start="4854" selection-end="4854" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeMetric/CyclomaticComplexity.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="24" selection-start="4854" selection-end="4854" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeMetric/CyclomaticComplexity.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="6" selection-start="1530" selection-end="1530" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concept/TDDfaq.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="384" column="13" selection-start="14439" selection-end="14439" vertical-scroll-proportion="0.3495652" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeMetric/CyclomaticComplexity.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="8" selection-start="2126" selection-end="2126" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="179" selection-end="191" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concept/DryKissYagni.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="43" selection-start="12497" selection-end="12506" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concept/KISS.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="5" selection-start="2508" selection-end="2508" vertical-scroll-proportion="0.033043478" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDE_CI/IDE.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="2" selection-end="8" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDE_CI/CI.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.5268631" />
+      </provider>
+    </entry>
+  </component>
+</project>
+
