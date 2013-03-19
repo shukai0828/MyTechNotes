@@ -69,6 +69,7 @@
     1. Unused Code Rules
 1. 配置Code Style风格为PEAR，菜单：File->Settings->Code Style->PHP->Set From...->Predefined Style = PEAR
 1. 配置Code Style换行符风格为UNIX，菜单：File->Settings->Code Style->General->Line separator = Unix and OS X '\n'
+1. 配置行长度标志线为120个字符，菜单：File->Settings->Code Style->General->Right margin = 120
 1. 其他要求
     1. 字符编码UTF-8
     1. TAB制表符用四个空格代替
