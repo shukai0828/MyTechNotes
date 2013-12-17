@@ -16,22 +16,31 @@
 1. 安装PHPStorm软件，使用默认配置即可，打开PhpStrom，通过菜单File->Settings界面按照下列方式进行配置
 
 1. 配置Phing执行路径，Project Settings->Phing，选中已安装的phing脚本：
+
         C:\xampp\php\phing.bat
+
     并点击“应用”按钮。
 
 1. 配置Code Sniffer执行路径，Project Settings->PHP->Code Sniffer：
+
         C:\xampp\php\phpcs.bat
+
     并点击“应用”按钮。
 
 1. 配置Mess Detector执行路径，Project Settings->PHP->Mes Detector：
+
         C:\xampp\php\phpmd.bat
+
     并点击“应用”按钮。
 
 1. 配置Code Sniffer检查的代码风格类型，Project Settings->Inspections->PHP->PHP Code Sniffer validation->Coding standard：
+
         PEAR
+
     选择之前需要点击右边的“刷新”按钮，选中后点击“应用”按钮。
 
 1. 配置Mess Detector的检查项，Project Settings->Inspections->PHP->PHP Mess Detector validation->Options，选中如下四个选项：
+
         Code Size Rules
         Design Rules
         Naming Rules
@@ -40,9 +49,11 @@
 2. 去掉拼写检查，解除Project Settings->Inspections->Spelling的选中状态
 
 1. 配置IDE自动检查的Code Style风格为PEAR，Project Settings->Code Style->PHP->Set From...->Predefined Style：
+
         PEAR
 
 1. 配置部分编辑器特征，Project Settings->Code Style->General
+
         Line separator (for new files): Unix and OS X '\n' // unix换行符
         Right margin (columns): 120 // 最大行长度标识线
         DO NOT use tab character // 不使用TAB符号
@@ -51,11 +62,13 @@
         Continuation indext: 8
 
 1. 配置UTF-8编码（根据实际项目决定），Project Settings->File Encodings
+
         IDE encoding: UTF-8
         Project encoding: UTF-8
         Default encoding for properties file: UTF-8
 
 1. 跟RD项目平台对接，Project Settings->Task->Servers，增加一个Redmine服务：
+
         Server URL: http://rd.staff.xdf.cn
         Username: zhaoshukai
         Password: ******

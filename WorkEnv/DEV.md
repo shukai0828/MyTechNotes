@@ -33,13 +33,16 @@ XAMPP Portable Lite 1.8.2包含如下组件：
         c:\xampp
 
 1. 检查php.ini的引用路径，确保其加载的php.ini在xampp\php目录下
+
         C:\xampp\php> php --ini
         Loaded Configuration File:         C:\xampp\php\php.ini
 
 1. 设置当前系统下PATH环境变量对PHP路径的引用：
+
         C:\xampp\php
 
 如果使用我提供的完整配置包，还需要调整Pear目录配置，执行如下命令
+
         cd c:\xampp\php
 	    pear config-set bin_dir  c:\xampp\php
 	    pear config-set doc_dir  c:\xampp\pear\docs
@@ -62,9 +65,11 @@ XAMPP Portable Lite 1.8.2包含如下组件：
 XAMPP本身已经预先安装好了部分PEAR包，但其对安装目录的引用形式为“相对路径”，而且还缺部分比较关键的工具。而且如果不对Pear进行重新配置，原先曾经安装过的Pear会对正常使用产生干扰，这个干扰主要表现在IDE执行phing操作时产生各种路径错误。
 
 1. 安装[Pear][10]，下载[go-pear.phar][11]到目录：
+
         c:\xampp\php
 
     执行
+
         C:\xampp\php> php go-pear.phar
 
         Are you installing a system-wide PEAR or a local copy?
@@ -117,15 +122,20 @@ XAMPP本身已经预先安装好了部分PEAR包，但其对安装目录的引�
 	    pear config-set www_dir  c:\xampp\php\pear\www
 
 1. 调整php.ini中的部分路径，在文件中执行如下替换：
+
         \xampp\php => c:\xampp\php
 
 1. 清除可能的pear缓存
+
         C:\xampp\php> pear clear-cache
 
 1. 安装[Phing][12]
+
         C:\xampp\php> pear channel-discover pear.phing.info
         C:\xampp\php> pear install --alldeps phing/phing
+
     Phing的安装过程会默认安装它依赖的部分Pear包，其中部分包是我们的持续集成正在使用的：
+
         install ok: channel://pear.phpunit.de/Version-1.0.1
         install ok: channel://pear.phpunit.de/Git-1.2.0
         install ok: channel://pear.netpirates.net/fDOMDocument-1.4.2
@@ -135,21 +145,27 @@ XAMPP本身已经预先安装好了部分PEAR包，但其对安装目录的引�
         install ok: channel://pear.phpunit.de/PHPUnit-3.7.28
 
 1. 安装[PHP_CodeSniffer][13]-1.4.8版本，首先卸载默认安装的最新版
+
         C:\xampp\php> pear uninstall PHP_CodeSniffer
+
     然后执行如下命令：
+
         C:\xampp\php>pear install PHP_CodeSniffer-1.4.8
         install ok: channel://pear.php.net/PHP_CodeSniffer-1.4.8
 
 
 1. 安装[PHP Copy/Paste Detector][5]-1.4.3，最新版有问题
+
         C:\xampp\php> pear config-set auto_discover 1
         C:\xampp\php> pear install pear.phpunit.de/phpcpd-1.4.3
 
 1. 安装[phploc][8]-1.7.4，最新版有问题
+
         C:\xampp\php> pear config-set auto_discover 1
         C:\xampp\php> pear install pear.phpunit.de/phploc-1.7.4
 
 1. 安装[PHP_CodeBrowser][9]
+
         C:\xampp\php> pear channel-discover pear.phpqatools.org
         C:\xampp\php> pear install --alldeps phpqatools/PHP_CodeBrowser
 
@@ -162,7 +178,9 @@ XAMPP本身已经预先安装好了部分PEAR包，但其对安装目录的引�
 
 * PHP Mess Dector
   1. 圈复杂度检查从10降到7，修改文件第28行：
+
             C:\xampp\php\pear\data\PHP_PMD\resources\rulesets\codesize.xml
+
 将CyclomaticComplexity的属性reportLevel值调整为7
 
             <rule name="CyclomaticComplexity" since="0.1" message="">
@@ -174,8 +192,11 @@ XAMPP本身已经预先安装好了部分PEAR包，但其对安装目录的引�
             </rule>
 
   1. 类方法代码长度从100降到40，修改文件第116行：
+
             C:\xampp\php\pear\data\PHP_PMD\resources\rulesets\codesize.xml
+
 将ExcessiveMethodLength的属性minimum值调整为40
+
             <rule name="ExcessiveMethodLength" since="0.1" message="">
                 <description></description>
                 <priority>3</priority>
@@ -186,8 +207,11 @@ XAMPP本身已经预先安装好了部分PEAR包，但其对安装目录的引�
 
 * PHP CodeSniffer
   1. 修改PEAR代码风格默认行长度120，修改文件第15行：
+
             C:\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\ruleset.xml
+
 将lineLimit的value值调整为120
+
              <rule ref="Generic.Files.LineLength">
               <properties>
                <property name="lineLimit" value="120"/>
