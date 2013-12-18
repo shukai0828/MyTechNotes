@@ -41,7 +41,7 @@ XAMPP Portable Lite 1.8.2包含如下组件：
 
         C:\xampp\php
 
-如果使用我提供的完整配置包，还需要调整Pear目录配置，执行如下命令
+    如果使用我提供的完整配置包，还需要调整Pear目录配置，执行如下命令
 
         cd c:\xampp\php
 	    pear config-set bin_dir  c:\xampp\php
@@ -181,7 +181,7 @@ XAMPP本身已经预先安装好了部分PEAR包，但其对安装目录的引�
 
             C:\xampp\php\pear\data\PHP_PMD\resources\rulesets\codesize.xml
 
-将CyclomaticComplexity的属性reportLevel值调整为7
+    将CyclomaticComplexity的属性reportLevel值调整为7
 
             <rule name="CyclomaticComplexity" since="0.1" message="">
                 <description></description>
@@ -195,7 +195,7 @@ XAMPP本身已经预先安装好了部分PEAR包，但其对安装目录的引�
 
             C:\xampp\php\pear\data\PHP_PMD\resources\rulesets\codesize.xml
 
-将ExcessiveMethodLength的属性minimum值调整为40
+    将ExcessiveMethodLength的属性minimum值调整为40
 
             <rule name="ExcessiveMethodLength" since="0.1" message="">
                 <description></description>
@@ -210,7 +210,7 @@ XAMPP本身已经预先安装好了部分PEAR包，但其对安装目录的引�
 
             C:\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\ruleset.xml
 
-将lineLimit的value值调整为120
+    将lineLimit的value值调整为120
 
              <rule ref="Generic.Files.LineLength">
               <properties>
